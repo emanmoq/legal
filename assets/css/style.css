@@ -997,6 +997,10 @@ width:auto;
 
     /*-------------------------------------------------*/
     @media(min-width:300px) and (max-width:1023px){
+        .form-control.searchcontrol::placeholder{
+            font-size:20px;
+            color:white;
+        }
         body{
             font-size:12px;
         }
