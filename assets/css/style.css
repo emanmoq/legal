@@ -824,6 +824,52 @@ width:auto;
 .blogBox .legalBtn {
     height:40px;
 }
+.services .blodDate span{
+margin-right:15px;
+}
+
+.blogFooter  a{
+    color:#CF9455;
+    font-size:17px;
+    display: block;
+    font-weight: 500;;
+
+}
+.blogDetails.blogDetailsPage{
+    padding:30px 0;
+
+}
+.blogSeacrh {
+    margin-bottom:50px;
+}
+.blogSeacrh form{
+    position: relative;
+}
+.blogSeacrh .form-control{
+border:1px solid #707070;
+border-radius: 10px;;
+height:40px;
+
+}
+.blogSeacrh .form-control::placeholder{
+    padding-left:50px;
+    color: #707070;
+    font-size:14px;
+}
+.blogSeacrh form i{
+position: absolute;
+top:30%;
+left:20px;
+color:#707070;
+}
+.blogsTitle{
+    font-weight: 600;
+    font-size:18px;
+    margin-bottom:30px;
+}
+.othersBox{
+    margin-bottom:50px;
+}
     /****************Animation of mobile Toggler****************/
 @-webkit-keyframes nav1 {
     50% {
