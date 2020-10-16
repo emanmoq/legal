@@ -1110,6 +1110,9 @@ height:40px;
         width:100%;
         height:auto;
         }
+        .scrollNav{
+            height: auto;
+        }
 }
 @media(min-width:767px) and (max-width:1023px){
   
