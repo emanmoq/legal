@@ -867,8 +867,50 @@ color:#707070;
     font-size:18px;
     margin-bottom:30px;
 }
-.othersBox{
+.othersBox ul{
     margin-bottom:50px;
+}
+.blogServices{
+    width:80%;
+}
+.recentBlogImg{
+    width:70px;
+    height:70px;
+    overflow: hidden;
+    border-radius: 10px;;
+    display: inline-block;
+    float:left;
+    margin-right:10px;
+}
+.recentBlogList li h4{
+    font-size:16px;
+    color:#121212;
+    margin-bottom:5px;
+}
+.recentBlogList li{
+    margin-bottom:3px;
+    padding: 0;
+    border:0;
+    width:100%;
+    margin-bottom:20px;
+}
+.recentBlogList li:hover h4{
+    color:#CF9455
+}
+.recentBlogList li a{
+    width:75%;
+}
+.recentBlogImg img{
+height:100%;
+width:auto;
+}
+.blogFooter{
+    margin-bottom:20px;
+}
+#searchModal{
+    width:100%;
+    height:100%;
+    background-color: #282E3F;
 }
     /****************Animation of mobile Toggler****************/
 @-webkit-keyframes nav1 {
@@ -996,6 +1038,9 @@ height:40px;
     }
     .SubscribeBtn{
         height:60px;
+    }
+    .blogServices{
+        width:100%;
     }
     }
 @media(min-width:767px) and (max-width:1023px){
