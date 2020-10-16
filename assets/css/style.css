@@ -1068,6 +1068,7 @@ height:auto
     }
     .owl-carousel .owl-stage-outer{
         overflow: hidden;
+        overflow-y: visible;
     }
     .TestimonialCar .owl-nav{
         text-align: center;
@@ -1131,6 +1132,7 @@ height:40px;
     }
     .owl-carousel .owl-stage-outer{
         overflow: hidden;
+        overflow-y: visible;
     }
     .TestimonialCar .owl-nav{
         text-align: center;
