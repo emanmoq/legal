@@ -537,6 +537,10 @@ border-radius: 18px;
     border-radius: 10px;
     overflow: hidden;
 }
+.workCard img{
+    height:100%;
+    width:auto;
+}
 .workCar{
     margin-left:240px;
 }
@@ -546,7 +550,7 @@ border-radius: 18px;
 .workCard .overlay{
     position: absolute;
     content:"";
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.7);
     top:0;
     left:0;
     width:100%;
@@ -628,9 +632,9 @@ height:430px;
     .blodDate{
         margin-bottom:20px;
     }
-    .blogDate span{
+    .blodDate  span{
         color:#898989;
-        font-size:1.25rem;
+        font-size:1rem;
     }
     .blogDetails h3{
     
@@ -774,7 +778,7 @@ color:#121212
     background: white;
     border-radius: 10px;
     box-shadow: 0px 3px 26px #00000029;
-    padding:40px 15px;
+    padding:40px 20px;
 }
 .AttorneryImg img{
 height:100%;
@@ -800,6 +804,25 @@ width:auto;
 .personalInfo li span {
     font-size:17px;
     color:#898989;
+}
+.personalInfo .socialIcons li a{
+    color:#898989;
+}
+.AttorneryBoxDetails h5{
+    margin:50px 0;
+    font-size:25px;
+}
+.AttorneryPage .workCard{
+    margin-bottom: 50px;;
+}
+.blogPage .BlogBox{
+    margin-bottom:60px;
+}
+.blodDate  span{
+    font-size: 15px;;
+}
+.blogBox .legalBtn {
+    height:40px;
 }
     /****************Animation of mobile Toggler****************/
 @-webkit-keyframes nav1 {
@@ -850,12 +873,26 @@ width:auto;
         body{
             font-size:12px;
         }
+        .innerHeader {
+            background-image: url(../images/Home/hero.png);
+            height: 190px;
+            padding-top: 84px;}
+            .othersBox{
+                margin-bottom:20px;
+            }
      .header-contenent{
          display: none;
      }
  
      .carousel-caption{
          top:20px;
+     }
+     .AttorneryImg{
+         height:auto
+     }
+     .AttorneryImg img{
+width:100%;
+height:auto
      }
      .carousel-caption span {
         font-size: 1.063rem;}
