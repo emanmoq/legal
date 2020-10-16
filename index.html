@@ -21,6 +21,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
+
 <header>
   <div class="header-contenent">
     <div class="container">
@@ -107,6 +108,7 @@
     </div>
   </div>
 </header>
+<body>
 <!--Srart slider-->
 <div class="slider-section">
 
@@ -784,12 +786,17 @@
 
 </footer>
 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-  </div>
+    <form class="searchModalForm">
+      <input type="text" class="form-control searchcontrol" placeholder="Search Keywords...">
+      <i class="lni lni-search-alt"></i>
+      <button type="submit" class="btn"></button>
+      <span>Press ESC key to close search</span>
+    </form>
+   
 </div>
 <!--- End Footer --->
 
-<body>
+
   <!--The js files -->
   <script type="text/javascript" src="assets/js/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -798,7 +805,12 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/owl.carousel.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
-
+<script>
+      $(document).keydown(function(e) {
+      code = e.keyCode
+      if (code == 27) {$("#searchModal").modal('hide');}
+    });
+  </script>
 </body>
 
 </html>
