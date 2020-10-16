@@ -1,0 +1,955 @@
+
+/* public */
+@font-face{
+    font-family:"Alleffra";
+    src:url("../fonts/Alleffra.ttf")
+}
+
+img{
+    width:100%;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+a{
+text-decoration: none;
+color:black;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+h3{
+   font-size:2.500em;
+}
+/*******Header ****************/
+.header-contenent {
+    padding: 20px 0;
+    box-shadow: 0px 3px 26px #00000029;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+}
+.socialIcons li{
+display: inline-block;
+margin-right:25px;
+
+}
+.socialIcons li a{
+    color:#CF9455;
+
+}
+.support li{
+    display:inline-block;
+    margin-right:24px;
+    font-size:1.1rem ;
+    color:#121212;
+}
+
+.support  i{
+    color:#CF9455;
+    margin-right:10px;
+}
+.support i.fa.fa-phone{
+    transform: rotate(102deg);
+}
+#innerHeader{
+background-color: #121212;
+position: relative;
+}
+.innerBody{
+    padding-top:80px;
+}
+.mainMenu{
+background-color:white;
+}
+
+/********Navbar**********/
+
+
+.navbar{
+    width:100%;
+}
+.nav-item{
+    padding-left:20px;
+    padding-right:20px;
+}
+.navbar-expand-lg{
+    padding:20px 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+font-size:1.125rem;
+color:#121212;
+position: relative;
+padding:0;
+color:#898989;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    width:100%;
+    transition: all .5s;
+    color:#CF9455
+}
+.nav-link i{
+    margin-top:3px;
+}
+.logoIcon{
+    width:40px;
+    display: inline-block;
+    float:left
+}
+.logo h5{
+    color:#121212;
+    font-weight: 600;
+    margin-left:10px;
+    font-size: 2.5rem;
+    display: inline-block;
+    float: left;
+}
+button.navbar-toggler {
+    position: relative;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 0;
+    opacity: 1;
+    border:1px solid #F7CA44;
+    text-align: center;
+    width:50px;
+}
+button.navbar-toggler i {
+    background-color: #F7CA44;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    animation: nav2 0.8s backwards;
+    animation-direction: reverse;
+    margin-bottom:5px;
+}
+button.navbar-toggler i:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: nav1 0.8s backwards;
+    animation: nav1 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;}
+.mobileMenu i:nth-child(3) {
+        -webkit-animation: nav3 0.8s backwards;
+        animation: nav3 0.8s backwards;
+        -webkit-animation-direction: reverse;
+        animation-direction: reverse;
+    }
+.scrollNav {
+        top: 0 !important;
+        z-index: 99999999999999999999999;
+        animation-duration: .5s;
+        background:white;
+        position: fixed !important;
+        box-shadow: rgba(0, 0, 0, 0.1) 2px 3px 20px 3px;
+        transition: 1s all;
+        left: 0;
+        width:100%;
+        right:0;
+        transition: all .5s;;
+        animation:sticky;
+        height:90px;
+    }
+ 
+
+    .Hero-section{ 
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        background-image: url("../images/Home/homeImg.png");
+        background-size: cover;
+        padding-top:200px;
+        padding-bottom: 431px;
+        color: white;
+        background-repeat: no-repeat;
+    }
+    .Hero-section h1{
+        font-size:4.375em;
+        margin-bottom:45px;
+    }
+    .Hero-section .overlay{
+        z-index: 1;
+    }
+
+    .carousel-caption span{
+font-size:2.063rem;
+color:#CF9455;
+margin-bottom:28px;
+font-weight: 500;;
+
+    }
+    .carousel-caption h1{
+       font-size: 4.375rem;
+       color:white;
+       margin-bottom:40px;
+    }
+    .carousel-caption {
+        bottom:auto;
+        top:200px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        top:-36%;
+    }
+.legalBtn{
+    background-color:#CF9455;
+    border-radius: 5px;
+    width:150px;
+    font-size:1.25rem;
+    text-align: center;
+    color:white;
+    border:1px solid #CF9455;
+    height:50px;
+}
+.legalBtn:hover{
+    background-color: transparent;
+transition: all .5;;
+color:white;
+}
+.aboutBox{
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 26px #00000029;
+    margin-top:-20%;
+    overflow: hidden;
+
+}
+.aboutTxt{
+    padding:80px 80px  0;
+    display: inline-block;
+    float: left;
+    width:55%;
+}
+.aboutImg{
+    width:45%;
+    display:inline-block;
+    float:right;
+    overflow: hidden;
+}
+.aboutImg img{
+    height:100%;
+    width:auto
+}
+.aboutTitle h3{
+    font-size:2.5rem;
+    color:#121212;
+    font-weight:600;
+    position:relative;
+    margin-bottom:40px;
+    display: inline-block;
+}
+.aboutTitle h3:before{
+    position: absolute;
+    content: "";
+    background-color: #CF9455;
+    height: 2px;
+    width:50%;
+    bottom:-10px;;
+}
+.aboutTxt p{
+    color:#898989;
+    font-size:1.25rem;
+    margin-bottom:50px;
+}
+p.Signature{
+    font-family:"Alleffra";
+    font-size:4.375rem;
+    margin-bottom: 10px;
+    color:#121212;
+}
+.serviceImg{
+    margin:auto;
+    margin-bottom:25px;
+    height:65px;
+    overflow: hidden;
+    min-width:40px;
+    max-width:100px;
+    width:auto
+
+}
+.serviceImg img{
+height:100%;
+width:auto;
+}
+.serviceBox h3{
+    font-size:1.375rem;
+    color:#121212;
+    margin-bottom:15px;
+}
+.serviceBox{
+    text-align: center;
+    padding:20px;
+    transition: all .5s;
+    border-radius: 5px;
+    height:400px;
+}
+.serviceBox:hover{
+    box-shadow: 0px 3px 26px #00000029;
+    transition: all .5s;
+
+
+}
+.serviceBox:hover h3{
+    color:#CF9455
+}
+.serviceBox p{
+    color:#898989;
+    font-size:1.25rem;
+    margin-bottom:25px;
+}
+.serviceBox a{
+    color:#CF9455;
+    font-size:1.25rem;
+}
+section{
+    padding:125px 0;
+}
+.sectionTitle {
+    margin-bottom:60px;
+}
+.sectionTitle p{
+    color:#CF9455;
+    font-size:1.25rem;
+    margin-bottom:15px;
+
+}
+.sectionTitle h4{
+    font-size:2.5rem;
+    color:#121212;
+    font-weight: 600;;
+}
+section.team{
+    background-color:#282E3F;
+    padding-bottom:0px;
+}
+.team .sectionTitle h4{
+    color:white;
+}
+.teamMember{
+    width:100%;
+    position: relative;
+}
+.teamImg{
+    border-radius: 10px;
+    overflow: hidden;
+    height:285px;
+
+}
+.memberInfo{
+    background: #FFFFFF;
+box-shadow: 0px 3px 26px #00000029;
+border-radius: 10px;
+width:90%;
+margin:auto;
+text-align: center;
+padding:30px 0;
+position: absolute;
+bottom:-20%;
+left:5%;
+height: 130px
+}
+
+.memberInfo h4{
+font-size:1.75rem;
+color:#121212;
+margin-bottom: 5px;;
+}
+.memberInfo p{
+    color:#898989;
+    font-size:1.25rem
+}
+.memberInfo.contatInfo{
+    background-color: #CF9455;
+    opacity:0;    z-index: 99999;
+
+}
+.teamMember:hover .memberInfo.contatInfo{
+    opacity: 1;
+    transition: all .5s;
+}
+.memberInfo.contatInfo h4{
+    color:white;
+}
+.contatInfo .socialIcons li a{
+    color:white;
+}
+.AchievmentBox{
+    background: #FFFFFF;
+box-shadow: 0px 3px 26px #00000029;
+border-radius: 10px;
+padding:18px 0;
+transition: all .5s;;
+
+}
+.imgLeft{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:10%;
+}
+.Achievment {
+    position: relative;
+}
+.imgright{
+    width:10%;
+    right:0;
+    bottom:0;
+    position:absolute;
+}
+.AchievmentImg{
+    margin:auto;
+    margin-bottom:22px;
+    transition: all .5s;
+    height:50px;
+    max-width:100px;
+    min-width:40px;
+    width:auto;
+}
+.AchievmentImg img{
+    width:auto;
+    height:100%;
+}
+.counter span{
+    font-size:1.75rem;
+    color:#121212;
+    font-weight: 600;
+
+}
+.AchievmentBox:hover {
+    background-color: #CF9455;
+    transition: all .5s;;
+}
+.AchievmentBox:hover .AchievmentImg{
+    filter: brightness(0) invert(1);
+    transition: all .5s;
+}
+.counter {
+    margin-top: 15px;;
+}
+.AchievmentBox:hover p{
+    color:white;
+    transition: all .5s;
+}
+.AchievmentBox:hover .counter span{
+    color:white;
+    transition: all .5s;
+}
+
+.AchievmentBox p{
+    font-size:.89rem;
+    color:#898989;
+    transition: all .5s;
+}
+.quoteImg {
+    width:46px;
+    margin: auto;
+    margin-bottom:30px;
+
+}
+.TestimonialCard{
+    padding:20px 15px;
+    text-align: center;
+    background: #FFFFFF;
+box-shadow: 0px 10px 20px #459EFF1A;
+border-radius: 18px;
+}
+.TestimonialCard p{
+    color:#6D7783;
+    font-size:1.25rem;
+    margin-bottom:50px;
+}
+.TestimonialInfo{
+    width:80%;
+    margin:auto;
+}
+.TestimonialImg{
+    width:50px;
+    height:50px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right:10px;
+    float: left;
+}
+.TestimonialName{
+    display: inline-block;
+    float: left;
+}
+.TestimonialName h6{
+    color:#000000;
+    font-weight: 600;
+    font-size:1.25rem;
+    margin:0;
+}
+.TestimonialName p{
+    color:#6D7783;
+    font-size:1.25rem;
+    margin:0;
+}
+.team.Testimonial{
+    padding-bottom:120px;
+}
+.TestimonialCard:hover{
+    background-color: #CF9455;
+}
+.TestimonialCard:hover .quoteImg{
+    filter: brightness(0) invert(1);
+    transition: all .5s;
+}
+.TestimonialCard:hover p{
+    color:white;
+    transition: all .5s;
+}
+.TestimonialCar {
+    margin-left:250px;
+}
+.TestimonialCar .owl-nav{
+    margin-top:50px;
+    width:100%;
+    text-align: right;
+}
+.TestimonialCar .owl-nav button i{
+    color:white ;
+    font-size:30px;
+    margin:0 10px;
+}
+.TestimonialCar .owl-nav button:last-child{
+    margin-right:100px;
+}
+.TestimonialCar  .owl-nav  button:focus{
+    outline:0;
+}
+.workCard{
+    width:100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.workCar{
+    margin-left:240px;
+}
+.workCard {
+    position: relative;
+}
+.workCard .overlay{
+    position: absolute;
+    content:"";
+    background-color: rgba(0,0,0,.5);
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:10px;
+    display: none;
+    transition: all .5s;;
+}
+.workCard:hover .overlay{
+display: block;
+transition: all .5s;;
+}
+.workImg{
+    width:100%;
+    border-radius: 10px;
+    overflow: hidden;
+    height:270px;
+}
+.workTxt{
+width:90%;
+margin:auto;
+border:1px dashed #CF9455;
+border-radius: 10px;
+text-align: center;
+height:98%;
+padding-top:30%;
+
+}
+.workTxt h6{
+    font-size: 1.25rem;
+    color:#CF9455;
+    margin:0;
+
+}
+.workTxt h5{
+    font-size:1.75rem;
+    font-weight: 600;
+    color:white;
+    margin-top:15px;
+}
+ .owl-nav{
+width:100%;
+text-align: center;
+margin-top:40px;
+}
+ .owl-nav button{
+    margin:10px;
+}
+ .owl-nav button span{
+    color:#CF9455;
+    font-size: 50px;;
+}
+.BlogBox{
+    background: #FFFFFF;
+box-shadow: 0px 3px 26px #00000029;
+border-radius: 20px;
+overflow: hidden;
+height:430px;
+}
+.BlogImg{
+    height:40%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.owl-carousel .owl-stage-outer { 
+    overflow: visible;
+    }
+    
+ .owl-carousel .owl-item {
+       opacity: 0;
+       transition: opacity .2s;
+    }
+ .owl-carousel .owl-item.active {
+      opacity: 1;
+    }
+    .blogDetails{
+        padding:50px 20px;
+    }
+    .blodDate{
+        margin-bottom:20px;
+    }
+    .blogDate span{
+        color:#898989;
+        font-size:1.25rem;
+    }
+    .blogDetails h3{
+    
+        color:#121212;
+        margin-bottom:30px;
+        font-size: 1.2rem;
+        font-weight: 600;;
+    }
+    .blogIcon{
+        width:15px;
+        margin-right:10px;
+        display: inline-block;
+    }
+    .BlogBox .legalBtn:hover{
+color:#CF9455
+    }
+    .subscribe.team{
+padding-bottom:125px;
+    }
+    .subscribe.team .sectionTitle h4{
+        color:#CF9455
+    }
+    .form-group{
+        width:100%;
+        position: relative;
+    }
+    .form-control{
+        width:100%;
+        border:2px solid #CF9455;
+        border-radius: 10px;
+        height:60px;
+        background-color: transparent;
+    }
+    .form-control::placeholder{
+color:#898989;
+font-size:1.5rem
+    }
+    .SubscribeBtn{
+        height:60px;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+    footer{
+        padding:125px 0;
+        background-color: #E4E4E4;;
+    }
+    .footerList{
+        margin-bottom:50px;
+    }
+    .footerList li{
+display: inline-block;
+    }
+    .footerList .nav-item{
+        padding: 0 15px;
+    }
+    .footerList .nav-item .nav-link{
+        padding:0;
+        font-size:1.25rem;
+        color:#121212 !important;
+        
+    }
+    footer .socialIcons li a{ 
+color:#121212
+    }
+    .copyRightsText{
+        margin-top:50px;
+        font-size:1.25rem;
+        color:#121212;
+        font-weight: 400;;
+    }
+    .innerHeader{
+        background-image: url("../images/Home/hero.png");
+        height:300px;
+        padding-top: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .innerTitle{
+        color:white;
+        font-size:40px;
+        font-weight: 600;
+    }
+.about.aboutPage .aboutBox{
+        margin-top:0
+    }
+    .othersBox li{
+        margin-bottom:20px;
+        padding:10px 20;
+        border:1px solid#707070;
+        border-radius: 10px;;
+
+    }
+    .othersBox li:last-child{
+        margin-bottom:0;
+    }
+    .othersBox li a{
+        color:#898989;
+        font-size:1rem;
+        width:100%;
+    }
+    .othersBox li.active  ,.othersBox li:hover{
+        background-color: #CF9455;
+    }
+  
+    .othersBox li.active a, .othersBox li:hover a {
+        color:white
+    }
+    .othersBox li a i{
+        float: right;
+        line-height: 21px;
+    }
+    .serviceDetailsImg {
+        border-radius:20px ;
+        overflow: hidden;
+        margin-bottom:40px;
+    }
+    .servicesTitle{
+        margin-bottom:30px;
+        font-size:40px;
+        color:#121212;
+    }
+    .servicesDetailsBox p{
+        font-size:18px;
+        color:#898989;
+        margin-bottom:30px;
+        text-align: justify;;
+    }
+    .AttorneryPage .teamMember{
+        margin-bottom:100px;
+    }
+.AttorneryImg{
+    border-radius: 10px;
+    overflow: hidden;
+    width:100%;
+    height:520px
+}
+.personalInfo{
+    height:520px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 26px #00000029;
+    padding:40px 15px;
+}
+.AttorneryImg img{
+height:100%;
+width:auto;
+
+}
+.personalInfo h5{
+    font-size:25px;
+    margin-bottom:30px;
+    color:#121212;
+
+}
+.personalInfo li {
+    margin-bottom:18px;
+}
+.personalInfo li p{
+    font-size:18px;
+    color:#121212;
+    margin:0;
+    display: inline-block;
+
+}
+.personalInfo li span {
+    font-size:17px;
+    color:#898989;
+}
+    /****************Animation of mobile Toggler****************/
+@-webkit-keyframes nav1 {
+    50% {
+      -webkit-transform: rotate(0deg); }
+    100% {
+      -webkit-transform: rotate(45deg); } }
+  @keyframes nav1 {
+    50% {
+      transform: rotate(0deg); }
+    100% {
+      transform: rotate(45deg); } }
+
+  @-webkit-keyframes nav2 {
+    0% {
+      -webkit-transform: translateY(0px) rotate(0deg); }
+    50% {
+      -webkit-transform: translateY(9px) rotate(0deg); }
+    100% {
+      -webkit-transform: translateY(9px) rotate(135deg); } }
+  @keyframes nav2 {
+    0% {
+      transform: translateY(0px) rotate(0deg); }
+    50% {
+      transform: translateY(9px) rotate(0deg); }
+    100% {
+      transform: translateY(9px) rotate(135deg); } }
+  @-webkit-keyframes nav3 {
+    0% {
+      -webkit-transform: translateY(0px) rotate(0deg); }
+    50% {
+      -webkit-transform: translateY(-9px) rotate(0deg); }
+    100% {
+      -webkit-transform: translateY(-9px) rotate(135deg); } }
+  @keyframes nav3{
+    0% {
+      transform: translateY(0px) rotate(0deg); }
+    50% {
+      transform: translateY(-9px) rotate(0deg); }
+    100% {
+      transform: translateY(-9px) rotate(135deg); } 
+    }
+/*********End Mobile Toggler Animation********/
+/*-----------------Hero Section--------------------*/
+
+    /*-------------------------------------------------*/
+    @media(min-width:300px) and (max-width:1023px){
+        body{
+            font-size:12px;
+        }
+     .header-contenent{
+         display: none;
+     }
+ 
+     .carousel-caption{
+         top:20px;
+     }
+     .carousel-caption span {
+        font-size: 1.063rem;}
+     .carousel-caption h1 {
+            font-size: 1.4rem;}
+     .carousel-control-next, .carousel-control-prev {
+                top: 5%;
+        }
+    .carousel-caption {
+    position: absolute;
+    right: 5%;
+    bottom: 20px;
+    left: 5%;
+    }
+    .aboutImg{
+        display: block;
+        width:100%;
+    }
+    .aboutTxt{
+        width:100%;
+        padding:10;
+
+    }
+    section {
+        padding:40px 0;
+    }
+    .aboutBox{
+        margin-top:0;
+    }
+    .AchievmentBox{
+        margin-bottom:20px;
+    }
+    .TestimonialCar{
+        margin-left:0;
+    }
+    .owl-carousel .owl-stage-outer{
+        overflow: hidden;
+    }
+    .TestimonialCar .owl-nav{
+        text-align: center;
+    }
+    .TestimonialCar .owl-nav button:last-child{
+        margin-right:0;
+    }
+
+    .workCar {
+        margin-left: 0;
+    }
+    .form-control::placeholder{
+        font-size:.8rem;
+    }
+    .legalBtn{
+font-size: 1rem;
+height:40px;
+    }
+    .SubscribeBtn{
+        height:60px;
+    }
+    }
+@media(min-width:767px) and (max-width:1023px){
+  
+}
+@media(min-width:1024px) and (max-width:1250px){
+    .carousel-caption {
+       top:100px}
+       .carousel-caption span {
+        font-size: 1.8rem;}
+     .carousel-caption h1 {
+            font-size: 2.5rem;}
+            .carousel-control-next, .carousel-control-prev {
+                top:3%;
+        }
+    .carousel-caption {
+    position: absolute;
+    right: 10%;
+    bottom: 20px;
+    left: 10%;
+    }
+    .owl-carousel .owl-stage-outer{
+        overflow: hidden;
+    }
+    .TestimonialCar .owl-nav{
+        text-align: center;
+    }
+    .TestimonialCar .owl-nav button:last-child{
+        margin-right:0;
+    }
+
+    .workCar {
+        margin-left: 0;
+    }
+    .TestimonialCar{
+        margin-left:0;
+    }
+    .AchievmentBox p {
+        font-size: .79rem;}
+}
